@@ -17,6 +17,17 @@
     <PackageReference Include="EPPlus" Version="4.5.2.1" />
     <PackageReference Include="iTextSharp.LGPLv2.Core" Version="1.4.4" />
     <PackageReference Include="MaxMind.GeoIP2" Version="3.0.0" />
+    <PackageReference Include="Nethereum" Version="0.0.2.33" />
+    <PackageReference Include="Nethereum.ABI" Version="3.0.0" />
+    <PackageReference Include="Nethereum.Accounts" Version="3.0.0" />
+    <PackageReference Include="Nethereum.Contracts" Version="3.0.0" />
+    <PackageReference Include="Nethereum.Geth" Version="3.0.0" />
+    <PackageReference Include="Nethereum.Hex" Version="3.0.0" />
+    <PackageReference Include="Nethereum.JsonRpc.RpcClient" Version="3.0.0" />
+    <PackageReference Include="Nethereum.KeyStore" Version="3.0.0" />
+    <PackageReference Include="Nethereum.RPC" Version="3.0.0" />
+    <PackageReference Include="Nethereum.Util" Version="3.0.0" />
+    <PackageReference Include="Nethereum.Web3" Version="3.0.0" />
     <PackageReference Include="SixLabors.ImageSharp" Version="1.0.0-beta0004" />
     <PackageReference Include="System.Linq.Dynamic.Core" Version="1.0.8.11" />
     <PackageReference Include="System.ServiceModel.Http" Version="4.5.3" />
@@ -37,6 +48,28 @@
       <ExcludeFromSourceAnalysis>False</ExcludeFromSourceAnalysis>
       <ExcludeFromStyleCop>False</ExcludeFromStyleCop>
     </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="WonkaLibs\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="WonkaBre">
+      <HintPath>WonkaLibs\WonkaBre.dll</HintPath>
+    </Reference>
+    <Reference Include="WonkaEth">
+      <HintPath>WonkaLibs\WonkaEth.dll</HintPath>
+    </Reference>
+    <Reference Include="WonkaIpfs">
+      <HintPath>WonkaLibs\WonkaIpfs.dll</HintPath>
+    </Reference>
+    <Reference Include="WonkaPrd">
+      <HintPath>WonkaLibs\WonkaPrd.dll</HintPath>
+    </Reference>
+    <Reference Include="WonkaRef">
+      <HintPath>WonkaLibs\WonkaRef.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>
