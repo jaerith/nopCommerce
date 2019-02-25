@@ -71,5 +71,23 @@
       <HintPath>WonkaLibs\WonkaRef.dll</HintPath>
     </Reference>
   </ItemGroup>
+  
+  <ItemGroup>
+    <Folder Include="WonkaData\" />
+  </ItemGroup>
+  
+  <ItemGroup>  
+    <EmbeddedResource Include="WonkaData\ChooseManageInvMethod.xml" />
+    <EmbeddedResource Include="WonkaData\WonkaEngine.abi" />
+    <EmbeddedResource Include="WonkaData\WonkaEngine.bin" />
+    <EmbeddedResource Include="WonkaData\OrchTest.abi" />
+    <EmbeddedResource Include="WonkaData\OrchTest.bin" /> 
+    <EmbeddedResource Include="WonkaData\VATCalculationExample.xml" />
+    <EmbeddedResource Include="WonkaData\VATCalculationExample.init.xml" />
+    <EmbeddedResource Include="WonkaData\WonkaRegistry.abi" />
+    <EmbeddedResource Include="WonkaData\WonkaRegistry.bin" />
+    <EmbeddedResource Include="WonkaData\WonkaRegistry.init.xml" />            
+  </ItemGroup>
+  
 
 </Project>
