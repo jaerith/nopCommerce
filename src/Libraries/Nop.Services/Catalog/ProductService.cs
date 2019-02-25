@@ -1310,6 +1310,8 @@ namespace Nop.Services.Catalog
             if (quantityToChange == 0)
                 return;
 
+            // NOTE: Use WonkaEngine here to decide on which method is chosen for managing inventory
+
             if (product.ManageInventoryMethod == ManageInventoryMethod.ManageStock)
             {
                 //previous stock
