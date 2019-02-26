@@ -52,6 +52,7 @@
 
   <ItemGroup>
     <Folder Include="WonkaLibs\" />
+    <Folder Include="WonkaNop\" />
   </ItemGroup>
 
   <ItemGroup>
